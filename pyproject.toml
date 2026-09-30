@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pigat"
+version = "0.1.0"
+description = "Physics-inspired GNNs (PI-GCN, PI-GATv2) for MAX-CUT and MIS"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=1.12.0",
+    "networkx>=2.8.0",
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+# Note: dgl is required at runtime but is intentionally omitted here because it
+# ships from its own wheel index (CUDA build on Ubuntu, CPU build on macOS).
+# See README for the per-platform install. Install this package with --no-deps
+# when the environment is already provisioned.
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pigat*"]

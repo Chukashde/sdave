@@ -1,0 +1,21 @@
+# MAX-CUT depth sweep, single-run configuration.
+# Matches the historical `main.py` defaults: a single attention head and no
+# attention dropout. Use this YAML to reproduce numbers produced via main.py.
+problem: maxcut
+
+# Training
+number_epochs: 10000
+learning_rate: 0.001
+dropout: 0.2
+patience: 10000
+
+# Architecture
+dim_embedding: 32
+fixed_hidden_dim_size: 16
+hidden_layers_range: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+# GAT-specific (main.py configuration)
+num_heads: 1
+attn_drop: 0.0
+
+output_dir: ./results

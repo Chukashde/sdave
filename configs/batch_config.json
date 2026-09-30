@@ -1,0 +1,51 @@
+{
+    "G14": {
+        "embedding_dim": 369,
+        "hidden_dim": [5],
+        "learning_rate": 0.00467,
+        "dropout": 0.0,
+        "fixed_architecture": true
+    },
+    "G15": {
+        "embedding_dim": 394,
+        "hidden_dim": [5],
+        "learning_rate": 0.00587,
+        "dropout": 0.0,
+        "fixed_architecture": true
+    },
+    "G22": {
+        "embedding_dim": 419,
+        "hidden_dim": [1909, 3401],
+        "learning_rate": 0.00103,
+        "dropout": 0.4498,
+        "fixed_architecture": true
+    },
+    "G49": {
+        "embedding_dim": 2167,
+        "hidden_dim": [2338, 1955, 8],
+        "learning_rate": 0.00058,
+        "dropout": 0.3554,
+        "fixed_architecture": true
+    },
+    "G50": {
+        "embedding_dim": 208,
+        "hidden_dim": [218, 3582, 566],
+        "learning_rate": 0.00488,
+        "dropout": 0.2365,
+        "fixed_architecture": true
+    },
+    "G55": {
+        "embedding_dim": 278,
+        "hidden_dim": [8412, 8352, 5499],
+        "learning_rate": 0.00161,
+        "dropout": 0.1062,
+        "fixed_architecture": true
+    },
+    "G70": {
+        "embedding_dim": 109,
+        "hidden_dim": [1233, 7048, 11869],
+        "learning_rate": 0.00139,
+        "dropout": 0.3912,
+        "fixed_architecture": true
+    }
+}

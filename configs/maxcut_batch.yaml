@@ -1,0 +1,22 @@
+# MAX-CUT depth sweep, batch configuration.
+# Matches the historical `batch_experiment.py` / `run_all_graphs.py` runs, which
+# used the Config defaults of two attention heads and 0.1 attention dropout.
+# Use this YAML to reproduce numbers produced via the batch scripts.
+problem: maxcut
+
+# Training
+number_epochs: 25000
+learning_rate: 0.001
+dropout: 0.2
+patience: 25000
+
+# Architecture
+dim_embedding: 32
+fixed_hidden_dim_size: 16
+hidden_layers_range: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+# GAT-specific (Config defaults used by the batch scripts)
+num_heads: 2
+attn_drop: 0.1
+
+output_dir: ./results

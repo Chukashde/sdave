@@ -1,0 +1,30 @@
+{
+    "G14": {
+        "embedding_dim": 369,
+        "hidden_dim": [5],
+        "learning_rate": 0.00467,
+        "dropout": 0.2,
+        "fixed_architecture": true
+    },
+    "G15": {
+        "embedding_dim": 394,
+        "hidden_dim": [5],
+        "learning_rate": 0.00587,
+        "dropout": 0.0,
+        "fixed_architecture": true
+    },
+    "G22": {
+        "embedding_dim": 419,
+        "hidden_dim": [1909, 3401],
+        "learning_rate": 0.00103,
+        "dropout": 0.4498,
+        "fixed_architecture": true
+    },
+    "G49": {
+        "embedding_dim": 2167,
+        "hidden_dim": [2338, 1955, 8],
+        "learning_rate": 0.00058,
+        "dropout": 0.3554,
+        "fixed_architecture": true
+    }
+}
