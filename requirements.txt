@@ -1,0 +1,17 @@
+# Core dependencies (also declared in pyproject.toml; installed by pip install -e .).
+torch>=1.12.0
+networkx>=2.8.0
+numpy>=1.21.0
+pandas>=1.3.0
+pyyaml>=6.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Testing (optional): pip install -e ".[test]"
+# pytest>=7.0
+
+# NOTE: DGL is required but is NOT listed here because it ships from its own
+# wheel index and the build differs per platform (CUDA on Ubuntu, CPU on macOS).
+# Install it separately, then run `pip install -e . --no-deps`. See README.md.
