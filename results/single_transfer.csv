@@ -1,0 +1,6 @@
+graph,split,metric_1,metric_2,metric_3,metric_4,metric_5,metric_6
+ER_n1000_0.txt,train,52.9,53.2,51.5,66.8,70.2,75.8
+ER_n1000_1.txt,unseen,51.4,51.6,50.7,66.3,69.0,74.9
+ER_n1000_2.txt,unseen,51.6,52.0,50.9,66.3,69.1,75.2
+ER_n1000_3.txt,unseen,51.7,51.7,50.0,67.3,69.2,74.8
+ER_n1000_4.txt,unseen,50.3,51.3,49.7,65.9,68.9,74.5

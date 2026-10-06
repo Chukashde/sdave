@@ -12,7 +12,7 @@ from datetime import datetime
 from time import time
 from typing import Any, Dict, List, Optional
 
-import dgl
+from pigat.training import graph_utils as dgl
 import networkx as nx
 import pandas as pd
 

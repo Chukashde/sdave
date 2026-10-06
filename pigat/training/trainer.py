@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import dgl
+from pigat.training import graph_utils as dgl
 from time import time
 from typing import Tuple, Dict, Any, Optional
 from itertools import chain
