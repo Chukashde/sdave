@@ -1,0 +1,63 @@
+protocol:
+  name: PI-GNN Generalization and Transfer
+  phase: 0
+  status: draft
+  base_commit: e6fac5c35a3784ae93ec20f65aecbcea3e666ef0
+dataset:
+  manifest: dataset/protocol2026_v2/manifest.json
+  manifest_sha256: a363095090c8e30231c0f73f5236abd7c82252579a4de5a792119a360d8303d5
+  train_per_family: 1000
+  validation_per_family: 100
+  iid_test_per_family: 100
+  training_size_range:
+  - 100
+  - 500
+  families:
+  - RRG
+  - ER
+experiment_Ia:
+  architectures:
+  - pigcn_jk
+  - pigat_jk
+  - pigatv2_jk
+  seeds:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  loss: qubo
+  selection_split: validation
+  selection_metric: mean_validation_H
+  regimes:
+    zero_shot: true
+    fine_tune_steps:
+    - 10
+    - 100
+    - 1000
+    from_scratch: true
+training:
+  config: configs/maxcut_main.yaml
+  dim: 17
+  feature_mode: random
+  gaussian_features: 16
+  normalized_degree_features: 1
+  layers: 3
+  heads: 1
+  spectral_k: 16
+  learning_rate: 0.001
+  max_steps: 10000
+  early_stopping_patience: 20
+  weight_decay: 0.0
+  log_every: 100
+evaluation:
+  primary_metric: cut_over_reference_cut
+  record_wall_time: true
+  record_bls_time_to_target: true
+  reference_method: BLS_best_known_20seeds_30s
+  rrg_2rsb_bound: false
+  validation_reference: experiments/protocol2026/results/bls_validation/reference.csv
+  validation_reference_sha256: faca4b7e557d4db6dfda69311246659ccab1d30aab019ae9720a2b7c46897916
+freeze:
+  approved: false
+  git_tag: null

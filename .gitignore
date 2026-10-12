@@ -221,3 +221,14 @@ __marimo__/
 .DS_Store
 __pycache__/
 *.pyc
+
+# Phase 0 generated artifacts
+experiments/protocol2026/checkpoints/
+experiments/protocol2026/logs/
+experiments/protocol2026/backup/
+experiments/protocol2026/results/
+experiments/protocol2026/*.log
+experiments/protocol2026/scripts/*.before_*
+dataset/protocol2026_v2/train/
+dataset/protocol2026_v2/val/
+dataset/protocol2026_v2/test_iid/

@@ -1,0 +1,12 @@
+=== PYTHON ===
+Python 3.12.3
+=== PYTORCH ===
+Torch: 2.11.0+cu128
+CUDA: 12.8
+GPU: NVIDIA GeForce RTX 5080
+=== NVIDIA DRIVER ===
+NVIDIA GeForce RTX 5080, 595.91.07
+=== OS ===
+Linux 5080server 7.0.0-34-generic #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+=== BASE COMMIT ===
+e6fac5c35a3784ae93ec20f65aecbcea3e666ef0
