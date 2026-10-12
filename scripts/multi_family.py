@@ -247,6 +247,10 @@ def main():
         opt.zero_grad()
         loss.backward()
         opt.step()
+        if (s + 1) in [10000, 20000, 50000, 100000]:
+            ckpt_path = f"results/multi_family_seed{a.seed}_step{s+1}.pt"
+            torch.save(net.state_dict(), ckpt_path)
+            print(f"checkpoint saved: {ckpt_path}", flush=True)
 
         run.append(
             loss.item()
