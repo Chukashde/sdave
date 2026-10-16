@@ -1,0 +1,3 @@
+split,family,n,edges,path,graph_seed,bls_seed,cut,cut_ratio,runtime_sec,iterations,local_optima,improvements
+test_size_ood,ER,600,1229,experiments/phase1_ood/data/ER/ER_n600_s8160000.txt,8160000,1,1039.0,0.8454027664768105,30.000011432974134,1054840,135862,47
+test_size_ood,RRG,600,900,experiments/phase1_ood/data/RRG/RRG_n600_s8060000.txt,8060000,1,823.0,0.9144444444444444,30.000229557976127,1701288,126375,38

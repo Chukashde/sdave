@@ -1,0 +1,262 @@
+{
+  "manifest_sha256": "822b5c98d569cfb4cb966949b970ffddc6edfee818514e7ec9560efa0307fe14",
+  "split": "test_size_ood",
+  "families": [
+    "ER",
+    "RRG"
+  ],
+  "limit": null,
+  "seeds": [
+    11
+  ],
+  "time_limit": 30.0,
+  "solver_params": {
+    "L0": null,
+    "T": 1000,
+    "P0": 0.8,
+    "Q": 0.5
+  },
+  "selected_graphs": [
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160000.txt",
+      "graph_hash": "8b7c415abdbf1e9584acd7613beaa97b85d27189c7df10822db12f2692eb6974"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160001.txt",
+      "graph_hash": "93bff5445c5002842bd06b2313ff4eefc274bd684d758a1f181afec67cc58aa4"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160002.txt",
+      "graph_hash": "c65754aae0a25c6e7bc25193a514586adc2ebd7889cc0af49b0cca74b00f2817"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160003.txt",
+      "graph_hash": "131b1dad8e4e96aa9bc4e67bf3fea67622dcbb00affc858600589e984617cb2a"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160004.txt",
+      "graph_hash": "d166d3c0f063bb0f42a56473925b59b0a09f5a000cd4ad957120da9e738f8f55"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160005.txt",
+      "graph_hash": "45c788091a5e56cb6bc1b69d05e4858f675c7e7d00b203f6b1ec9b3b5c156096"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160006.txt",
+      "graph_hash": "613e57480f689936ff997d839a87f514335026e5893633e8229eb79a616bf1b2"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160007.txt",
+      "graph_hash": "0d01800fbde9d8546ff6159006bda8e1e6033d1a6341ec814ba8ee11c1d9110a"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160008.txt",
+      "graph_hash": "7e27a9ac34dfaa462798448c7f4989ddc24d5546170fe0b9260855da816560e9"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160009.txt",
+      "graph_hash": "6f4cd6669423f39db321fee821147853546698f56ba3a3dccbcc5e91a6bc2bec"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200000.txt",
+      "graph_hash": "d6e880349f23f959f2e9eda5c45ea25128ab48acd6d0396c5bb17b6e923d7968"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200001.txt",
+      "graph_hash": "ee992c148a6fd35693dd9b0ac83e62c3b8d1c8c23158fc4368cdcd2c85c08c38"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200002.txt",
+      "graph_hash": "b24efbc5ebd8d149cee57cd1d628cf942b70ccbb66d6eb9672f1329b9226dda2"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200003.txt",
+      "graph_hash": "9aaa6bff479761b95ce1363a24c1f5a487bbb0f4ae63a3270e1183bd2d2e1f44"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200004.txt",
+      "graph_hash": "61dd53cde55ff7501b024f27fd8041c4f00d83486ca5664692245d00a625e1a7"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200005.txt",
+      "graph_hash": "178fd83e29560f5f719a2aa4f28e410a5fa7bcb29ab386bd5afc6f34da0efca3"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200006.txt",
+      "graph_hash": "377c5edc04e2704ac475fc18ed242827de178b759571bc374a7873e4325f4665"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200007.txt",
+      "graph_hash": "b1d447b120a0d5ad3252530ab73403fa42c2e68ec7c06400bcc6199c0cd9560a"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200008.txt",
+      "graph_hash": "bfcfdd65718e16cf1e63ab27ea0dd44e09d9de4f49ee3459b86a3653d45649bc"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n1000_s8200009.txt",
+      "graph_hash": "dfcafcee61a252ac3973fb2c71bc07b1c0f9ad9e377f8eb0120bf7efae42fa35"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300000.txt",
+      "graph_hash": "842b62ab5ffa9542c1206e3ad9b7c7a3bde8f7af282b30e712e082a26d9ef5b7"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300001.txt",
+      "graph_hash": "04d584e205d6a7324840c45596c29b65d9f9b3aeb7da8fb851e6a3b6183d66e2"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300002.txt",
+      "graph_hash": "92a071bd6790be52522a606c22b084556a89003ca40786b45e5edc4c7fc9e533"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300003.txt",
+      "graph_hash": "d585662332681445e94405750010af288898f7c3f626c9eff1cfbab04c5f95d8"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300004.txt",
+      "graph_hash": "026a20fd71734bf6337ba4e581687f2225b402d777e5f8c1612baaf799d6b95f"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300005.txt",
+      "graph_hash": "517994ffbe7f6962e8574b951d3c3bf2940f129087a1eb0b9587f1806bfb9041"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300006.txt",
+      "graph_hash": "9fb0f3f54516c1ca33c4d720656c7b009f586879f725184aaf022faf192f085b"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300007.txt",
+      "graph_hash": "029b85089f667e59cb5cab33206984ee65a3cb41a38a1f705438fe613a0e313b"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300008.txt",
+      "graph_hash": "c0f3997e18061573db7c6d5fca7e822d8a3621e53fa207b89b0dfa0fe5c05e66"
+    },
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n2000_s8300009.txt",
+      "graph_hash": "be3507c065a80893db48bcca47b8a3294b8b70b421bb7c9f6058aac7326948ea"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060000.txt",
+      "graph_hash": "f67eb47a9719657654d0ff6457525d2f947d01efe256d5836343f596503961ec"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060001.txt",
+      "graph_hash": "d04bce137e35d2fda1fba431ae0758cdec58af54aaf6d15dd5b5b6b6d97593b5"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060002.txt",
+      "graph_hash": "e8c2053a12e13ad71fc27e9d8f28e5ad7968d0e0459f673a1e8f071de72f4e46"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060003.txt",
+      "graph_hash": "a9343f057cb5a8b69b80109d8e13c1432526cb4e9657175fc126f9dc4ae3184a"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060004.txt",
+      "graph_hash": "2a892b88624d10eb82cbd3bf9f8b1de06368328332421416639374e77e884547"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060005.txt",
+      "graph_hash": "bb89d7315185aa600c6bad7be7f630563c2265e33c122c6da6af122676ad5a45"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060006.txt",
+      "graph_hash": "82f43bea27caba09671f331db4d8501af73ed61bd5b220e093b24a4b8b210de4"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060007.txt",
+      "graph_hash": "6ea1b7a1c0b1875fa54e96533f96d552b8dae12beebb0c0981cbb4dd86112ea7"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060008.txt",
+      "graph_hash": "8565d80ceaebb835220d078062da2edc59e616fcf8a41c91f7324a08a70a9f0e"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060009.txt",
+      "graph_hash": "36406ae31783630f069e545309593fac07236325fcc6b866698593bd66256950"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100000.txt",
+      "graph_hash": "414ee9299277f57f58ec7d6ca5f12afc839d67286203dc3ac1cb1b759889f380"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100001.txt",
+      "graph_hash": "8aeaf389f125cc753f98ce40d99c680cca6f98e1e34ae8ee9acba1157129cf30"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100002.txt",
+      "graph_hash": "f078fa5c857cf60281e1a3d41cea48412a70a01db906444de0596869b010ad7c"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100003.txt",
+      "graph_hash": "075aa8b50ca2cc363805f64e84ba7a354b89765828cc6e2a095a178b86ea47dc"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100004.txt",
+      "graph_hash": "c5d1b0a0df0514834d942f211214d73253823131254ad3c36a93225c9c2e8108"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100005.txt",
+      "graph_hash": "d1c593d44e8259bcd5c8d4d99abb715a2f58b169e16cfa8e03f7005f3a5852c6"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100006.txt",
+      "graph_hash": "31c452d4e766de99223bc38bc709203e20cd9da75ef5adc5433ab84f8d334ed2"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100007.txt",
+      "graph_hash": "efdf40882f3d5a4641e034af23841f22e27b331311c80b2c8b4b2c5a8b6ff8aa"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100008.txt",
+      "graph_hash": "c87039f564ed605ef37bbdc96bb2f2521fd13449e4f8a69647caa5d5209f2eda"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n1000_s8100009.txt",
+      "graph_hash": "ea29e058bd5cfba27ab34d75880be619601eef2267273fdc32675c4e617f1af0"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200000.txt",
+      "graph_hash": "cb3eb26e4ed0057a03951096912dea2f7124b373cccdb156380ecf8151b99046"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200001.txt",
+      "graph_hash": "49f097ec5d9b0699fb2069ab0730478f5ce483bd13fad69749a5383d134012ff"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200002.txt",
+      "graph_hash": "dc7119565dd99dab9fc2ddd52f1469b1f37e7f8c8b9c508d4b442f12447f4ee9"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200003.txt",
+      "graph_hash": "4daac056782e74a44a8f977109c3fbe9fc365ed379574ac5b29f0fc46c6ab548"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200004.txt",
+      "graph_hash": "99c7f02876c90025ad5a3f3e666b0bc577f41d33b88e7f358ab05341a20f5600"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200005.txt",
+      "graph_hash": "7e50619c6a6b5b2102e665148efb4a7a0b9c8e5497d73f51743a99cd274c7b4f"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200006.txt",
+      "graph_hash": "32a37ef16455c7e96166a3b460da326c100e80b5d75353f7b1f58d141b6d84b6"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200007.txt",
+      "graph_hash": "cb050f44169c762c681d5ebc1b6b156f9e2b611409cd70ce75cd35f71a498322"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200008.txt",
+      "graph_hash": "40e7375c13b9c7a09e4312e5f68471af7ed101298794e0dea8edaa51b9599009"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n2000_s8200009.txt",
+      "graph_hash": "40633c5f4878813cff272f7012f44dff76b6c6c68e79538d95fbfcc3f23a412a"
+    }
+  ],
+  "solver_sha256": "eec19053e3c32c856beb0a9f49c0f62b0452c57d97f915f02651e575d12ea25f"
+}

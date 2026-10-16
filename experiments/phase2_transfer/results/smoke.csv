@@ -1,0 +1,2 @@
+model,train_family,train_seed,test_family,adapt_graphs,steps,path,graph_seed,n,edges,cut05,cutrank50,cut05_normalized,cutrank50_normalized,adaptation_sec
+pigatv2_jk,ER,1,SBM,1,10,experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300000.txt,9300000,1000,4984,3293.0,3296.0,0.6607142857142857,0.6613162118780096,0.33144300803542137

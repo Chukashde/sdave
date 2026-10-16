@@ -1,0 +1,30 @@
+{
+  "manifest_sha256": "822b5c98d569cfb4cb966949b970ffddc6edfee818514e7ec9560efa0307fe14",
+  "split": "test_size_ood",
+  "families": [
+    "ER",
+    "RRG"
+  ],
+  "limit": 1,
+  "seeds": [
+    1
+  ],
+  "time_limit": 30.0,
+  "solver_params": {
+    "L0": null,
+    "T": 1000,
+    "P0": 0.8,
+    "Q": 0.5
+  },
+  "selected_graphs": [
+    {
+      "path": "experiments/phase1_ood/data/ER/ER_n600_s8160000.txt",
+      "graph_hash": "8b7c415abdbf1e9584acd7613beaa97b85d27189c7df10822db12f2692eb6974"
+    },
+    {
+      "path": "experiments/phase1_ood/data/RRG/RRG_n600_s8060000.txt",
+      "graph_hash": "f67eb47a9719657654d0ff6457525d2f947d01efe256d5836343f596503961ec"
+    }
+  ],
+  "solver_sha256": "eec19053e3c32c856beb0a9f49c0f62b0452c57d97f915f02651e575d12ea25f"
+}

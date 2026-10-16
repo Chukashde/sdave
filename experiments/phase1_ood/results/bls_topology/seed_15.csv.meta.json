@@ -1,0 +1,184 @@
+{
+  "manifest_sha256": "6046821bdd8323405d8456fc4b1f22fa6f771ee5986c9ba1e6dd2764002cf52f",
+  "split": "test_topology_ood",
+  "families": [
+    "SBM",
+    "WS",
+    "GEO",
+    "SF"
+  ],
+  "limit": null,
+  "seeds": [
+    15
+  ],
+  "time_limit": 30.0,
+  "solver_params": {
+    "L0": null,
+    "T": 1000,
+    "P0": 0.8,
+    "Q": 0.5
+  },
+  "selected_graphs": [
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300000.txt",
+      "graph_hash": "79901fcb956f42af91bc427ab7d0a304f46148107d19f5d86c02ece5183d077b"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300001.txt",
+      "graph_hash": "a71ec6f4ba569684a38187fbe29b66a5f60426ddcd26e7e7e74b4f279b964a59"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300002.txt",
+      "graph_hash": "eee22d2d794359ddb97f353903ebcd7060754f7f98f70c765043e3f3f5b65023"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300003.txt",
+      "graph_hash": "d837edec34929165afaf5af840bac88fea10b13dd52ad3d35308458795e475c1"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300004.txt",
+      "graph_hash": "6150c8d25f005041d2ec2194ff204ee3ed574d8776df87b06eb31ab023a7dc85"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300005.txt",
+      "graph_hash": "57d84e640e28560d46c86377d24bb0845a226a0323c3482b2d4da96cf51e83bd"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300006.txt",
+      "graph_hash": "a2408c39627ee752fed1b14d3e307babfe5afeefa8dae449d57aaebab8df4687"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300007.txt",
+      "graph_hash": "fefa1649ad0813eb1176d11016142c5e570641780e0f855f9f5071afd50a6700"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300008.txt",
+      "graph_hash": "ffe0320c77e862fc0ecfea3cc35cb4493ed6bcd59cdadd3012c26cedad166999"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SBM/SBM_n1000_s9300009.txt",
+      "graph_hash": "0c612a15ad68bf5c3bb9cb77305c8fecf3425b0e9f9d3f67bda4aaeea501b4d4"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400000.txt",
+      "graph_hash": "65014224f7420970465f5269f5008021dd8ede5f571d723cfc5f5b0c7afddddf"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400001.txt",
+      "graph_hash": "78309b4798af45d30dcf07ce9465a65223e683dd1c409140aab3ce85de309f85"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400002.txt",
+      "graph_hash": "5b0e6cf68354871485b9fb427b6c968f4e8206d248dbd2ec0525a1ed54799684"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400003.txt",
+      "graph_hash": "c59b226db6517b1b3652b324c495424864ea503760b66d70bf766f39073d076b"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400004.txt",
+      "graph_hash": "151564c8cd3ff5fd4615fac922a47075bd41e81f865030b5e6be88c78450fbde"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400005.txt",
+      "graph_hash": "297895d207ecfb4a7eaa97c942bc1a23c99fb4c76d5f700c4d941102f668e74c"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400006.txt",
+      "graph_hash": "b883798e901803872b04e283892af8e0c25c5f8c5f82da66ed9ab12a15f07e74"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400007.txt",
+      "graph_hash": "41a2a654a9947b9a24efc37cba97822f6452ff690a00bc05cae0121011f6e649"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400008.txt",
+      "graph_hash": "045ca4e716e79e2af0d8f7e67a90d2cb8a244f584f21768cc4f97a0f73373356"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/WS/WS_n1000_s9400009.txt",
+      "graph_hash": "8e38dc1edd8e9ee49620f4d874eca7ddcff85b012f6da122ae5e6e0a27103a8b"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500000.txt",
+      "graph_hash": "12224468f41b158b85f83851f799e1f967cb9bad6484a97df17c6bed52689394"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500001.txt",
+      "graph_hash": "f3603f1afd6e4371ba0f4e5cb90c534ce8f44c28424f15030e523ea484f7f8c6"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500002.txt",
+      "graph_hash": "a3c8349bd78ac8a51216ebd299db25f364f2a9f4630bbc608b4621bdedc9f43b"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500003.txt",
+      "graph_hash": "ca273f256e93e86be3a4e3ea80d710d531386f09164a64614f0d4f51381eec6a"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500004.txt",
+      "graph_hash": "3cc6ac22c388d23daec91950eae79554b7b852cc539f431151f3f88f9ba8caaf"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500005.txt",
+      "graph_hash": "a330902cba78417e2b9d0f834f8e83b76b26c9a718a68f0e8d3837f1f4e59d36"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500006.txt",
+      "graph_hash": "48f5fec81a5971749b128c4fe557d39002342363d1fcb4d6e3cda16a7811be70"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500007.txt",
+      "graph_hash": "8ed3d0de1bf82f2a952de647b1a63ac3bce21e8c7785818bbf24f0e3830a830e"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500008.txt",
+      "graph_hash": "f5f416d8c8bd908d070ce4dad5692c48598f65a7fae1cb27285b2aa9ef082952"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/GEO/GEO_n1000_s9500009.txt",
+      "graph_hash": "08d1c1892d720661a8180c94ab363ebafd82af6ba14515480ac2ceafd42cd177"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600000.txt",
+      "graph_hash": "7ce9bd3dc0fd6f449d3dd41e06b0c760437c01efe38e6626f364a47e5372896f"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600001.txt",
+      "graph_hash": "bf0bfc8ed7c6a85c960aabb23b72c4cb21b0c40b3447b8d6e1985cb25278e0ed"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600002.txt",
+      "graph_hash": "469305b42092c8a36733bb4f43a6c5932542780e7c9b88b7f1768d9ae4dd96b0"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600003.txt",
+      "graph_hash": "876ca5349207920a1a51b1d64694ac5a71f4e65775b2cf4ab1bfeb403f9664f4"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600004.txt",
+      "graph_hash": "0cb1fc0f4ebb97d42598ab2e1777c698a93c2c550c894a7025df8aa7ed114ee7"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600005.txt",
+      "graph_hash": "5162e01975ffb266ccf8d64b7b1dc54aec79e568eb91c40b015f3b8ee6d6c8ac"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600006.txt",
+      "graph_hash": "1cdced5a7c8adebcc21f1535f01eaae084f6103f274be852430bba551955f132"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600007.txt",
+      "graph_hash": "df3d91206404b0b3db387b3330dea584ec64401fe3f43bfaeb8fccb81eaed3e0"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600008.txt",
+      "graph_hash": "5ffdba88ee33337a2993651efa62331e4851d87957d4bcac8874306823f040b2"
+    },
+    {
+      "path": "experiments/phase1_ood/data_topology_v2/SF/SF_n1000_s9600009.txt",
+      "graph_hash": "defdc01b7877b0b2165a74b6925a8c9d4230f0cfdf74c15ad3736f031b7ed3fc"
+    }
+  ],
+  "solver_sha256": "eec19053e3c32c856beb0a9f49c0f62b0452c57d97f915f02651e575d12ea25f"
+}

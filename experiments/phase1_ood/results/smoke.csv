@@ -1,0 +1,3 @@
+model,train_family,test_family,train_seed,path,graph_seed,n,edges,cut05,cutmedian,cutrank50,cut05_normalized,cutmedian_normalized,cutrank50_normalized,p_std,inference_sec
+pigcn_jk,ER,ER,1,experiments/phase1_ood/data/ER/ER_n600_s8160000.txt,8160000,600,1229,899.0,898.0,898.0,0.7314890154597233,0.7306753458096013,0.7306753458096013,0.48203498125076294,0.21780005504842848
+pigcn_jk,ER,RRG,1,experiments/phase1_ood/data/RRG/RRG_n600_s8060000.txt,8060000,600,900,716.0,721.0,720.0,0.7955555555555556,0.8011111111111111,0.8,0.4903603792190552,0.0007838939782232046

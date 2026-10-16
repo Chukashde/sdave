@@ -1,0 +1,342 @@
+{
+  "manifest_sha256": "c7435557237a5d0380ee48a6bb83338b54280bbdf8734a19df0c140f70bccda6",
+  "split": "test_degree_ood",
+  "families": [
+    "ER",
+    "RRG"
+  ],
+  "limit": null,
+  "seeds": [
+    18
+  ],
+  "time_limit": 30.0,
+  "solver_params": {
+    "L0": null,
+    "T": 1000,
+    "P0": 0.8,
+    "Q": 0.5
+  },
+  "selected_graphs": [
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104000.txt",
+      "graph_hash": "0b2b66e8206c851a74b43974153108cc4194c065bcc6e7e2baa278781e1935c1"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104001.txt",
+      "graph_hash": "127af9f95f8caac610c88f904b452a14fc527c9f88f5e7bc3aadadb1887d9b68"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104002.txt",
+      "graph_hash": "34ad3f9e4e87aa63b852a594c526bee5c8cae8b823a48979c30b761846f7bcc6"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104003.txt",
+      "graph_hash": "4e3516d0f358e4164ccdc52e9639b288f78633735a38ef6d1171a3ed4379085a"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104004.txt",
+      "graph_hash": "ca44e8cc8891d6e9327c3ed2b3b67348852455924a85a8d628ebd74af57764e6"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104005.txt",
+      "graph_hash": "7567f3e32e0cd4afd61b9134b92990b89989bf8925fb4e00464d616b43a110d1"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104006.txt",
+      "graph_hash": "617cfb24a840aea42757c7ea83612331bf4656adff736f0f091aae3137111707"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104007.txt",
+      "graph_hash": "e12b474b8f9ce7152abfd73d3e2df3af2a94aed7a15ee4f0cb1840eb4a775167"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104008.txt",
+      "graph_hash": "4fe3be04fe8d4f47952d915784a7d12aa5901e20be22ba21509081939ffe07e0"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d4_s9104009.txt",
+      "graph_hash": "ab0699cd7f498e3989713c9a8851d99082931cc71262c39dc2379a37421851d3"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108000.txt",
+      "graph_hash": "b02bdc48a20ee706f7eb4be9c9c0971725577ff967df92dac95d852eb9a5b800"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108001.txt",
+      "graph_hash": "d3714362d5a81342dafd4155178ca49d56c93cde78ba2e0001674a482f5db8cc"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108002.txt",
+      "graph_hash": "aa77d7e89e4b05efa7c2b8e4fd907251a67b4a73405f7d6397ca3f8ccb9584e1"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108003.txt",
+      "graph_hash": "2741548cd40095d80fea8f9e1326c0344f7c20e1673ea9f8f515b49f38ad31bd"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108004.txt",
+      "graph_hash": "19c659f10d396c88e92ce4f3be05f9065a86245c2b77ee18466acb89fb472895"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108005.txt",
+      "graph_hash": "44b9cb27d4f05fc2896ef499655c3fd90f122388b3a80d635bb21c8333d87cc5"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108006.txt",
+      "graph_hash": "05866423e3792a2da1379040d64309c2baaf2e0f36cc36c2a50a88821e0c8260"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108007.txt",
+      "graph_hash": "d5e20c5ffbc327184bdb52dcdb0c3737519e3af11edb68956d3e5f87d187712f"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108008.txt",
+      "graph_hash": "6e72cf837b988b7ed2668078370f08416a635156d249b1de4b03ecaa92aa8b68"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d8_s9108009.txt",
+      "graph_hash": "0c55e231e8adac93039d276713d5104c3f7fa4eb550ee70d5bc16696e514fc01"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112000.txt",
+      "graph_hash": "1f36851e7b8abb413a52009133da63559b78d353a4cff52e2bc2a99ba14adedf"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112001.txt",
+      "graph_hash": "e97c179ea9be03ed2916d427901505c1328a22d4bba0cf04baaf3b34e1af1cfe"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112002.txt",
+      "graph_hash": "82784c7c78c000c79e62ef48a01dc108394adf74fa32ea6cfa3267107d860a46"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112003.txt",
+      "graph_hash": "7210064bd7472fc7d8a1e1b8ec181b128b38f79d2d26eb579773d6b08912914f"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112004.txt",
+      "graph_hash": "71116decb3c1a8fc09a526bef410e4531510fd1ff8ea70194c09f6cc9373bb7f"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112005.txt",
+      "graph_hash": "7e2e28cb5f57063a8cc4df07b396da8099638d92b2c5bfbf6b79062cd3e8c776"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112006.txt",
+      "graph_hash": "86bd3c5cec07da6a3697f47f5ca8274b0924b13b061f9e988ca07caed4db8c71"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112007.txt",
+      "graph_hash": "e6d4a0f4b9f9860d24965f526884d8bdc05175bbef13b64a3af3f063901f0057"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112008.txt",
+      "graph_hash": "b3dad989c0ac8c8d39101f84abd695a72f47298baaa0d313c186a93c548a1243"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d12_s9112009.txt",
+      "graph_hash": "cccbeb99ddaa9b965d9e9b82654a9aeb27e0a3d802cb8c0ead3771d0573d57ba"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120000.txt",
+      "graph_hash": "96c543b4ac2c58528a969507085131331f7a78ce0ee0372bf3ba7878eb1b0ae7"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120001.txt",
+      "graph_hash": "71079d7b44937fa54d53e8582a3ed851e98c30d76fe8e5a1e729906345433c1a"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120002.txt",
+      "graph_hash": "b4fb9b411bdded623fc166c20ec026eb81f0f4d9a815b82ea51c943f145ddffa"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120003.txt",
+      "graph_hash": "20263010edb3e548151055615baffa20c1d6300f2de9aa161f3032e564200c6c"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120004.txt",
+      "graph_hash": "6d776c8ca829c52ed282aa6ee7d0c94533691ba9e1fa509121b054801a001cac"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120005.txt",
+      "graph_hash": "6f5abc8d0449f4cc41610b44fe0ee98677d37dd5ba60b0d86872da99ed500d89"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120006.txt",
+      "graph_hash": "4737c7a0a890303807d976405c95c12448df53713478649606967b0aaf820b5c"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120007.txt",
+      "graph_hash": "d9d0272eebb440aba325dca51400700f9ee47a9356e477ab719b276deec9a41e"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120008.txt",
+      "graph_hash": "fc3117d0a38b8f2bd9fd99d494d30c249ca99191cb22edd8db73f6edbbff931f"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/ER/ER_n1000_d20_s9120009.txt",
+      "graph_hash": "1cc9e4164c948f1d386bbc3ff38b0d96188bc834dbd21d3455389c6f1de94437"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203000.txt",
+      "graph_hash": "2c3531a1be2591fc67ed56fa74f5a6e9f52eacf210fbdb4cf10474cbc7f6d074"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203001.txt",
+      "graph_hash": "b2c4ffb2c6223e813f25fe14d743d460493e4dd3235b20ac7aa14bd530a0925e"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203002.txt",
+      "graph_hash": "4040def85b23b5f16a7874db5307f208e3992e9bb2fc3407b14b7340e2e3204b"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203003.txt",
+      "graph_hash": "e0303c7a8b879f96aab0b3f7e06f95e8d253d43cec2b26b7a26d92ad4cd7b073"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203004.txt",
+      "graph_hash": "62d28108170aa2485661c30c81358c1c47bc925305a926ab2577dda5335926b5"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203005.txt",
+      "graph_hash": "e3252190b96f18fe01ab3780396469ec5b1e3e1b271ac03e932d2f867ff998ad"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203006.txt",
+      "graph_hash": "2254deec0d6e29f8a10897a3353d8e5c7fbc34bce6646ed5f6b14441c7630d21"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203007.txt",
+      "graph_hash": "3b23578d68b4b4f432fa007c86fc95cdff6ade1cc9cc0df0c739505fd6c4a94f"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203008.txt",
+      "graph_hash": "31fe0de1fac12b03497a679aa5e85f382ef0aee309d1f76ab70d57f78b1856eb"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d3_s9203009.txt",
+      "graph_hash": "a9098c1350583006bd57c7b0c9f4515cc98f7084dce43fbf8b180c64354f74c1"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206000.txt",
+      "graph_hash": "36a44b5a9fc89e7021d4d2981f5cbaedca366f2817b9072f395394f8e7a03bf9"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206001.txt",
+      "graph_hash": "df8e1528803348f7ce1310f9364d194f377d587aeee8bb985bf3f147e5136b7c"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206002.txt",
+      "graph_hash": "b2ef284a6043366db957e7f4cf379e0e81139c9115fdefaff32965204d166179"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206003.txt",
+      "graph_hash": "589c56de34c6fad78aec925b473cfc108e7259dfb6adb06452cfd131938b4e48"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206004.txt",
+      "graph_hash": "af71013efea7ee7b2dae106aad47b45ab7785a6e5d1aed733c763bb7315bdcf1"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206005.txt",
+      "graph_hash": "a85403df6475ee493bc97fa0355fa80307adbf3431a1d19fa3c00d15937cef3a"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206006.txt",
+      "graph_hash": "41f0c1029c6c1523cc1b735b876ffcf68337c124f4b7f37b71c52ec54ad139c5"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206007.txt",
+      "graph_hash": "8a6ad8c9bd0e37ce607054014c4f222152bb79e9213ed3a480ae9cc6ea32651e"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206008.txt",
+      "graph_hash": "eb35c790ebc60b40fe9982e166b4a7a307850ec90b3a359ddf4535fa79975850"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d6_s9206009.txt",
+      "graph_hash": "bf81f0d954146d3a920efc10d0f5ba36d01983cbb57a259bbcaacf617d23b1a2"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210000.txt",
+      "graph_hash": "d1eb4344a4caf86c0faa6ebf2b943aac39f4d6a9247028e096a803af037193eb"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210001.txt",
+      "graph_hash": "8bf60c14c2fed6654a0fd42fa6fbe28e5bace18e0ff939a987e67c8c93fe87fa"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210002.txt",
+      "graph_hash": "69e74a6e2990af14a9755feafba99f23e46ff3b872710d8690d0592bca3b306b"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210003.txt",
+      "graph_hash": "614bc64c79d36d61634eabd78cc506ba4a1f94ad9f00132ed7d4fbf17a2affce"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210004.txt",
+      "graph_hash": "6810965d7a92129f3fab10081941d38c38ec1028f123e96566ee27fdcdc8ea8a"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210005.txt",
+      "graph_hash": "a3fd67aa0d3c1cfacb3ea2a5f5fc80aa70b14f6aadb24c25d15937a43d1fcac9"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210006.txt",
+      "graph_hash": "6c83b53b539e5a5dfb23a5affe7ba4f224ca977a13f2947c1bb1a9d906290e64"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210007.txt",
+      "graph_hash": "0ac6f9e42f9b6af22f8b6f94347195ffe496680fabee8fe5ac3342baf0c2d137"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210008.txt",
+      "graph_hash": "333a698205efbbde78deb5a72e6ee3ec52956150cb41d79aaa3e43b84c7a8774"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d10_s9210009.txt",
+      "graph_hash": "4d3df148248f178ae3063bde88a2fc2c7007a4ffb53d005ae37df0a7fd45eb3e"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220000.txt",
+      "graph_hash": "a162169195b3c8a0ef614add6f806d1a44b070b27fa6b1855881b63705e71b26"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220001.txt",
+      "graph_hash": "9c60d323336d0f549463241952600bba7b0d8afbe02a627d468746d826b55db5"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220002.txt",
+      "graph_hash": "d2730c33e9d859ad770c33976fab4805892735e8b60abbeb5abbdf8b3fde656e"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220003.txt",
+      "graph_hash": "97094798518897d07aeac2d4a83f6f5a84cd9ea77cda20370646c2ff019a5c79"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220004.txt",
+      "graph_hash": "a50a03c0363d02abf76ce56b8db79296a3e300ecd28427da866be0f80bbbf2c8"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220005.txt",
+      "graph_hash": "9342216f9b9de0716397886fdabf4225d849dc4aacd26c34d9074192b62e026d"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220006.txt",
+      "graph_hash": "3c94b2546892996e50d96b7aaa5d03a0355fc08935dc61d083c3812bb0c45b93"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220007.txt",
+      "graph_hash": "0cb5ec50b5320f323a7a0a685c044f19d7339e0af89f54ba67ed6db36ed00d16"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220008.txt",
+      "graph_hash": "9e52f386f43f68becc0b8f6bcb29efe287689463c5c7d3a23959da49c10a3f32"
+    },
+    {
+      "path": "experiments/phase1_ood/data_density/RRG/RRG_n1000_d20_s9220009.txt",
+      "graph_hash": "2dc322cdf0408379c47cd9b47f5c0967016caaa45540cb8f48bd23597bee4bb8"
+    }
+  ],
+  "solver_sha256": "eec19053e3c32c856beb0a9f49c0f62b0452c57d97f915f02651e575d12ea25f"
+}
